@@ -1,0 +1,75 @@
+.skils{
+  background: var(--background-blanco);
+  padding: 2rem 4rem;
+}
+.skils-titulo{
+  color: var(--titulos-principales);
+  font-size: 2.5rem;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  padding: 1rem 0;
+}
+
+.skils-contenedor{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+  margin: 0.5rem;
+}
+
+.skil{
+  background-color: var(--background-gris-claro);
+  padding: 1rem;
+  text-align: center;
+  width: 15%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px 0 var(--sombras);
+}
+.skil:hover{
+  transform: scale(1.03);
+  transition: 500ms 
+}
+
+.skil-img{
+  width: 50%;
+  border-radius: 8px;
+  margin: 0.5rem;
+}
+
+.skil p{
+  color: var(--textos);
+  padding: 0.5rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .skils{
+    padding: 2rem;
+  }
+  .skils-titulo{
+    font-size: 2rem;
+  }
+  .skils-contenedor{
+    padding: 1rem;
+  }
+
+  .skil{
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+.skils{
+  padding: 1rem;
+}
+.skil{
+  width: 30%;
+  margin-bottom: 1rem;
+}
+.skil p{
+  font-size: .9rem;
+}
+}

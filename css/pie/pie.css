@@ -1,0 +1,12 @@
+.pie{
+  background: var(--background-gris);
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+.pie{
+  font-size: 0.7rem;
+}
+}

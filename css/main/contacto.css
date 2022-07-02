@@ -1,0 +1,60 @@
+.contacto {
+  background: linear-gradient(
+    to bottom,
+    var(--background-blanco),
+    var(--background-gris)
+  );
+}
+
+.contacto-logo {
+  width: 2rem;
+  vertical-align: bottom;
+}
+
+.contacto-titulo {
+  color: var(--titulos-principales);
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  padding: 0 0 2rem 0;
+}
+
+.contacto-datos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: center;
+  padding: 1rem 1rem 2rem 1rem;
+}
+.contacto-datos p {
+  padding: 0.5rem;
+  color: var(--textos);
+}
+
+.contacto-redes {
+  text-align: center;
+  vertical-align: center;
+}
+
+.contacto-redes a {
+  padding: 0 1rem;
+}
+
+.contacto-datos a{
+text-decoration: underline;
+color: blueviolet;
+}
+
+
+@media screen and (max-width: 768px) {
+  .contacto-titulo {
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
+  .contacto-logo {
+    width: 1.6rem;
+  }
+  .contacto-datos p {
+    font-size: 0.9rem;
+  }
+}
