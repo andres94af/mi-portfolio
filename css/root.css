@@ -1,0 +1,10 @@
+:root{
+  --background-gris: #cecfc9;
+  --background-gris-claro: rgb(230, 230, 230);
+  --background-blanco: #efefef;
+  --titulos-principales: #0a3143;
+  --titulos-secundarios: #0a3143;
+  --textos: rgb(93, 93, 93);
+  --sombras: rgba(36, 0, 144, 0.2);
+  --boton: #276e90;
+}

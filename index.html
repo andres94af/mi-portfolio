@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ES">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/root.css" />
+    <link rel="stylesheet" href="css/cabecero/cabecero.css" />
+    <link rel="stylesheet" href="css/main/sobre-mi.css" />
+    <link rel="stylesheet" href="css/main/estudios.css" />
+    <link rel="stylesheet" href="css/main/skils.css" />
+    <link rel="stylesheet" href="css/main/proyectos.css" />
+    <link rel="stylesheet" href="css/main/contacto.css" />
+    <link rel="stylesheet" href="css/pie/pie.css" />
+  </head>
+  <body>
+    <header class="cabecero">
+      <nav class="cabecero-nav">
+        <ul class="cabecero-lista">
+          <li class="cabecero-lista-item andres">
+            <img class="img-lista" src="img/codigo.png" />
+            <a href="#">Andres M. Fernandez</a>
+          </li>
+          <li class="cabecero-lista-item">
+            <img class="img-lista" src="img/sobre-mi.png" /><a href="#sobre__mi"
+              >Sobre Mi</a
+            >
+          </li>
+          <li class="cabecero-lista-item">
+            <img class="img-lista" src="img/estudios.png" /><a href="#formacion"
+              >Formación</a
+            >
+          </li>
+          <li class="cabecero-lista-item">
+            <img class="img-lista" src="img/skils.png" />
+            <a href="#skils">Skils</a>
+          </li>
+          <li class="cabecero-lista-item">
+            <img class="img-lista" src="img/proyectos.png" /><a
+              href="#proyectos"
+              >Proyectos</a
+            >
+          </li>
+          <li class="cabecero-lista-item">
+            <img class="img-lista" src="img/contacto.png" /><a href="#contacto"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="sobre__mi" id="sobre__mi">
+        <div class="sobre__mi-principal">
+          <div>
+            <h1 class="sobre__mi-titulo1">Hola, soy Andy!</h1>
+            <h2 class="sobre__mi-titulo2">Desarrollador Web Full-Stack</h2>
+          </div>
+          <img src="img/foto CV2.jpg" alt="foto CV" class="imagen__cv" />
+        </div>
+        <p class="sobre__mi-texto">
+          Tengo 28 años, nacido en Córdoba, Argentina, donde viví la mayor parte
+          de mi vida. Actualmente estoy viviendo en Valencia, España, donde sigo
+          formándome como programador para poder dedicarme a ello por completo.
+        </p>
+        <p class="sobre__mi-texto">
+          Este es mi portfolio y forma parte de un sprint challenge de la ruta
+          de Front-End del curso dictado por Alura Latam.
+        </p>
+      </section>
+      <section class="estudios" id="formacion">
+        <h1 class="estudios-titulo">Mi Formación</h1>
+        <div class="estudios-contenedor">
+          <div class="estudio">
+            <img
+              class="estudio-img"
+              src="img/logo-platzi.png"
+              alt="logo platzi"
+            />
+            <h1>Platzi</h1>
+            <p>
+              Programacion Basica - 2021 - 36 hs de formación teórico practicas.
+            </p>
+          </div>
+          <div class="estudio">
+            <img
+              class="estudio-img"
+              src="img/logo-udemy.png"
+              alt="logo udemy"
+            />
+            <h1>Udemy</h1>
+            <p>
+              Universidad JavaScript - De Cero a Experto JavaScript - 2022 - 36
+              hs de formación teórico practicas.
+            </p>
+          </div>
+          <div class="estudio">
+            <img class="estudio-img" src="img/logo-one.png" alt="logo alura" />
+            <h1>Alura Latam</h1>
+            <p>
+              Programa ONE - Desarrollo Web Full-Stack - 2022 - actualmente en
+              curso.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="skils" id="skils">
+        <h1 class="skils-titulo">Skils</h1>
+        <div class="skils-contenedor">
+          <div class="skil">
+            <img class="skil-img" src="img/html-5.png" alt="logo html" />
+            <p>HTML 5</p>
+          </div>
+          <div class="skil">
+            <img class="skil-img" src="img/css-3.png" alt="logo css" />
+            <p>CSS 3</p>
+          </div>
+          <div class="skil">
+            <img class="skil-img" src="img/js.png" alt="logo js" />
+            <p>Java Script</p>
+          </div>
+          <div class="skil">
+            <img class="skil-img" src="img/github-skil.png" alt="logo github" />
+            <p>GitHub</p>
+          </div>
+        </div>
+      </section>
+      <section class="proyectos" id="proyectos">
+        <h1 class="proyectos-titulo">Mis Proyectos</h1>
+          <div class="proyecto encriptador">
+            <img
+            class="proyecto-img"
+            src="img/encriptador.png"
+            alt="imagen encriptador"
+            />
+            <div>
+            <h1 class="proyecto-titulo">Encriptador de texto</h1>
+            <p class="proyecto-descripcion">Challenge programa ONE. Encripta/Desencripta textos</p>
+            <a class="boton" href="https://andres94af.github.io/challengeEncriptador/" target="_blank">Ver demo</a>
+            <a class="boton" href="https://github.com/andres94af/challengeEncriptador" target="_blank">Repositorio</a>
+          </div>
+          </div>
+          <div class="proyecto ahorcado">
+          <div>
+            <h1 class="proyecto-titulo">Juego del ahorcado</h1>
+            <p class="proyecto-descripcion">Challenge programa ONE. Clasico Juego del ahorcado</p>
+            <a class="boton" href="https://andres94af.github.io/ChallengeAhorcado/" target="_blank">Ver demo</a>
+                        <a class="boton" href="https://github.com/andres94af/ChallengeAhorcado" target="_blank">Repositorio</a>
+          </div>
+            <img
+              class="proyecto-img"
+              src="img/ahorcado.png"
+              alt="imagen ahorcado"
+            />
+          </div>
+          <div class="proyecto mini-alura">
+            <img
+            class="proyecto-img"
+            src="img/minialura.png"
+            alt="imagen mini alura"
+            />
+          <div>
+            <h1 class="proyecto-titulo">Mini Alura</h1>
+            <p class="proyecto-descripcion">Trabajo Practico. Resposividad Web + CSS</p>
+            <a class="boton" href="https://andres94af.github.io/MiniAlura/" target="_blank">Ver demo</a>
+            <a class="boton" href="https://github.com/andres94af/MiniAlura" target="_blank">Repositorio</a>
+          </div>
+        </div>
+          <div class="proyecto buona-vita">
+          <div>
+            <h1 class="proyecto-titulo">Buona Vita Nutricion</h1>
+            <p class="proyecto-descripcion">Trabajo practico. Botones, formularios. JS</p>
+            <a class="boton" href="https://andres94af.github.io/BuenaVida/" target="_blank">Ver demo</a>
+            <a class="boton" href="https://github.com/andres94af/BuenaVida" target="_blank">Repositorio</a>
+          </div>
+            <img
+              class="proyecto-img"
+              src="img/buenavida.png"
+              alt="imagen buena vida"
+            />
+          </div>
+          <div class="proyecto e-comerce">
+            <img
+              class="proyecto-img"
+              src="img/ecomerce.png"
+              alt="imagen buena vida"
+            />
+            <div>
+              <h1 class="proyecto-titulo">E-comerce AluraGeek</h1>
+              <p class="proyecto-descripcion">Trabajo practico. Botones, formularios, CSS responsivo</p>
+              <a class="boton" href="https://andres94af.github.io/AluraGeek-Ecomerce/" target="_blank">Ver demo</a>
+              <a class="boton" href="https://github.com/andres94af/AluraGeek-Ecomerce" target="_blank">Repositorio</a>
+            </div>
+            </div>
+      </section>
+      <section class="contacto" id="contacto">
+        <h1 class="contacto-titulo">Contacto</h1>
+        <div class="contacto-redes">
+          <a href="https://www.facebook.com/andicpl94" target="_blank"
+            ><img
+              class="contacto-logo"
+              src="img/facebook.png"
+              alt="logo facebook"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/andres-mariano-fernandez/"
+            target="_blank"
+            ><img
+              class="contacto-logo"
+              src="img/linkedin.png"
+              alt="logo linkedin"
+          /></a>
+          <a href="https://github.com/andres94af" target="_blank">
+            <img class="contacto-logo" src="img/github.png" alt="logo github"
+          /></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=34697345197&text=Hola%20Andres!%20Me%20comunico%20con%20la%20siguiente%20consulta%3A"
+            target="_blank"
+          >
+            <img
+              class="contacto-logo"
+              src="img/whatsapp.png"
+              alt="logo whatsapp"
+          /></a>
+          <a
+            href="https://drive.google.com/file/d/1QYs6dxnxYg3a78JrWrv8DVbAqqWraQqM/view?usp=sharing"
+            target="_blank"
+            ><img class="contacto-logo" src="img/cv.png" alt="logo cv"
+          /></a>
+        </div>
+        <div class="contacto-datos">
+          <p>
+            <img class="contacto-logo" src="img/movil.png" alt="logo movil" />
+            +34 697 345 197
+          </p>
+          <p>
+            <img class="contacto-logo" src="img/email.png" alt="logo email" /><a
+              href="mailto: andres94.af@gmail.com?Subject=Consulta%20desde%20mi%20portafolio"
+            > andres94.af@gmail.com</a
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="pie">2022 &copy - Andres Mariano Fernandez</footer>
+  </body>
+</html>
