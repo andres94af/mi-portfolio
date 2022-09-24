@@ -12,7 +12,7 @@
 
 .skils-contenedor{
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   flex-wrap: wrap;
   padding: 2rem;
   margin: 0.5rem;
@@ -21,6 +21,7 @@
 .skil{
   background-color: var(--background-gris-claro);
   padding: 1rem;
+  margin: 1rem 2rem;
   text-align: center;
   width: 15%;
   height: auto;
