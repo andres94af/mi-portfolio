@@ -50,14 +50,15 @@
 @media screen and (max-width: 768px) {
   .estudios {
     background: var(--background-blanco);
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
   }
   .estudios-titulo {
     font-size: 2rem;
   }
   .estudio {
-    padding: 1rem;
-    width: 22%;
+    padding: 1rem 0;
+    width: 26%;
+    margin: 0.5rem;
   }
   .estudio h1 {
     font-size: 1.1rem;

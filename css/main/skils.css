@@ -46,18 +46,18 @@
 
 @media screen and (max-width: 768px) {
   .skils{
-    padding: 2rem;
+    padding: 2rem 1rem;
   }
   .skils-titulo{
     font-size: 2rem;
   }
   .skils-contenedor{
-    padding: 1rem;
+    padding: 1rem 0;
   }
 
   .skil{
-    width: 30%;
-    margin-bottom: 1rem;
+    width: 28%;
+    margin: 1.4rem;
   }
 }
 

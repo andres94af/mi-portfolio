@@ -23,7 +23,6 @@
   color: var(--titulos-principales);
   font-size: 1.5rem;
   text-align: center;
-  /* margin: 0 4rem 1rem 4rem; */
 }
 
 .proyecto-descripcion{
@@ -68,12 +67,23 @@
   }
   .proyecto-descripcion{
     font-size: .75rem;
-    margin: 1rem 1rem 2rem 1rem;
+    margin: 1rem;
   }
   .boton{
     margin: 0 .75rem;
     padding: .3rem;
     font-size: .75rem;
+  }
+  .proyecto{
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .encriptador, .mini-alura, .e-comerce, .hotel{
+    flex-direction: column-reverse;
+  }
+  .proyecto-img {
+    margin: 1.8rem;
+    width: 90%;
   }
 }
 

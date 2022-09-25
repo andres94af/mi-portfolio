@@ -47,6 +47,12 @@
   .imagen__cv {
     width: 10rem;
   }
+  .sobre__mi {
+    padding: 1rem;
+  }
+  .sobre__mi-principal {
+    padding: 1rem 0;
+  }
   .sobre__mi-titulo1 {
     font-size: 2rem;
     line-height: 2rem;
