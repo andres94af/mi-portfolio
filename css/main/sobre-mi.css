@@ -1,7 +1,8 @@
 .sobre__mi {
-  /* background: linear-gradient(to top, var(--background-blanco), var(--background-gris), var(--background-blanco)); */
   background-color: var(--background-blanco);
-  padding: 2rem;
+  /* background-image: url(/img/teclado.JPG); */
+  padding: 2rem 3rem;
+  /* box-shadow: 0px 0px 21px 9px #ffffff; */
 }
 
 .sobre__mi-principal {
@@ -30,7 +31,7 @@
   width: 17rem;
   border-radius: 100%;
   box-shadow: 0 0 50px 10px var(--sombras);
-  border: solid 1.8px var(--titulos-principales);
+  border: solid 1px #ffffff00;
 }
 
 .sobre__mi-texto {

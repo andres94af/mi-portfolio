@@ -9,6 +9,7 @@
 .contacto-logo {
   width: 2rem;
   vertical-align: bottom;
+  margin-right: 0.5rem;
 }
 
 .contacto-titulo {
@@ -26,6 +27,7 @@
   vertical-align: center;
   padding: 1rem 1rem 2rem 1rem;
 }
+
 .contacto-datos p {
   padding: 0.5rem;
   color: var(--textos);
@@ -42,7 +44,7 @@
 
 .contacto-datos a{
 text-decoration: underline;
-color: blueviolet;
+color: var(--textos);
 }
 
 

@@ -1,6 +1,6 @@
 .estudios {
   background: var(--background-blanco);
-  padding: 2rem 3.5rem;
+  padding: 2rem 3rem;
 }
 
 .estudios-titulo {
@@ -19,11 +19,12 @@
 .estudio {
   background-color: var(--background-gris-claro);
   padding: 1rem;
+  margin: 1rem;
   text-align: center;
   width: 22%;
   height: auto;
   border-radius: 5px;
-  box-shadow: 0 10px 10px 0 var(--sombras);
+  box-shadow: 0px 0px 21px 9px var(--sombras);
 }
 
 .estudio:hover {

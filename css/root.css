@@ -1,4 +1,4 @@
-:root{
+/* :root{
   --background-gris: #cecfc9;
   --background-gris-claro: rgb(230, 230, 230);
   --background-blanco: #efefef;
@@ -7,4 +7,15 @@
   --textos: rgb(93, 93, 93);
   --sombras: rgba(36, 0, 144, 0.2);
   --boton: #276e90;
+} MODELO ORIGINAL--------------------------------------------------------*/
+
+:root{
+  --background-gris: #121212;
+  --background-gris-claro: #121212;
+  --background-blanco: #1f1f1f;
+  --titulos-principales: #ffffffa3;
+  --titulos-secundarios: #ffffffa3;
+  --textos: #ffffff6d;
+  --sombras: rgba(3, 218, 198, 0.25);
+  --boton: rgb(6, 175, 158);
 }
