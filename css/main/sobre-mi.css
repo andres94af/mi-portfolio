@@ -54,7 +54,7 @@
     padding: 1rem 0;
   }
   .sobre__mi-titulo1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
     /* line-height: 2rem; */
     letter-spacing: 0;
   }
@@ -65,6 +65,7 @@
   }
   .sobre__mi-texto {
     padding: 0.6rem 0;
+    font-size: 1rem;
   }
 }
 

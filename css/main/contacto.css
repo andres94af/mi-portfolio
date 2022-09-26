@@ -55,7 +55,7 @@ color: var(--textos);
 
 @media screen and (max-width: 768px) {
   .contacto-titulo {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding: 1rem;
   }
   .contacto-logo {
