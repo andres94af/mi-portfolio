@@ -10,8 +10,8 @@
   width: 2rem;
   vertical-align: bottom;
   margin-right: 0.5rem;
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
   box-shadow: 0px 0px 20px 2px var(--sombras);
 }
 
@@ -21,6 +21,7 @@
   text-align: center;
   letter-spacing: 0.4rem;
   padding: 0 0 2rem 0;
+
 }
 
 .contacto-datos {
@@ -39,6 +40,7 @@
 .contacto-redes {
   text-align: center;
   vertical-align: center;
+  padding: 1rem 0 2rem;
 }
 
 .contacto-redes a {
@@ -54,12 +56,17 @@ color: var(--textos);
 @media screen and (max-width: 768px) {
   .contacto-titulo {
     font-size: 1.5rem;
-    padding: 2rem;
+    padding: 1rem;
   }
   .contacto-logo {
-    width: 1.6rem;
+    width: 1.8rem;
   }
   .contacto-datos p {
     font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+  }
+  .contacto-redes{
+    padding: 1rem 0.5rem;
   }
 }

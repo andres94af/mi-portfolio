@@ -23,7 +23,7 @@
   margin: 2rem 2.5rem;
   text-align: center;
   width: 15%;
-  height: 10rem;
+  height: auto;
   border-radius: 5px;
   box-shadow: 0px 0px 21px 9px var(--sombras);
 }
@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 768px) {
   .skils{
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
   }
   .skils-titulo{
     font-size: 2rem;
@@ -58,6 +58,11 @@
   .skil{
     width: 28%;
     margin: 1.4rem;
+  }
+
+  .skil p{
+    padding: 0.5rem 0.2rem;
+    line-height: 1.2rem;
   }
 }
 

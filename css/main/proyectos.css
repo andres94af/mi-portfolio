@@ -56,13 +56,13 @@
 
 @media screen and (max-width: 768px) {
   .proyectos{
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
   }
   .proyectos-titulo {
     font-size: 2rem;
   }
   .proyecto-titulo {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin: 0 2rem;
   }
   .proyecto-descripcion{

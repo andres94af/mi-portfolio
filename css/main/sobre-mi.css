@@ -37,15 +37,15 @@
 .sobre__mi-texto {
   padding: 1rem 10rem 0 10rem;
   color: var(--textos);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   letter-spacing: 0.1rem;
   text-indent: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
 }
 
 @media screen and (max-width: 768px) {
   .imagen__cv {
-    width: 10rem;
+    width: 8.5rem;
   }
   .sobre__mi {
     padding: 1rem;
@@ -55,16 +55,16 @@
   }
   .sobre__mi-titulo1 {
     font-size: 2rem;
-    line-height: 2rem;
+    /* line-height: 2rem; */
     letter-spacing: 0;
   }
   .sobre__mi-titulo2 {
     font-size: 1.5rem;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     letter-spacing: 0.2rem;
   }
   .sobre__mi-texto {
-    padding: 1rem 0;
+    padding: 0.6rem 0;
   }
 }
 

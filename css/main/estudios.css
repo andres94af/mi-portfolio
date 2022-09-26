@@ -45,23 +45,33 @@
 
 .estudio p {
   color: var(--textos);
+  padding: 0 0.5rem;
+  line-height: 1.1rem;
 }
 
 @media screen and (max-width: 768px) {
   .estudios {
     background: var(--background-blanco);
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
+  }
+  .estudio-img {
+    width: 50%;
+  }
+  .estudios-contenedor{
+    flex-direction: column;
+    align-items: center;
   }
   .estudios-titulo {
     font-size: 2rem;
+    padding: 1rem;
   }
   .estudio {
     padding: 1rem 0;
-    width: 26%;
-    margin: 0.5rem;
+    width: 70%;
+    margin: 2rem;
   }
   .estudio h1 {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     padding: 0.5rem;
   }
   .estudio p {
