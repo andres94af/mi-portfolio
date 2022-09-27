@@ -1,13 +1,13 @@
 .pie{
-  background: var(--background-gris);
+  background: var(--background-tarjetas);
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding: 0.5rem;
   color: white;
 }
 
 @media screen and (max-width: 768px) {
 .pie{
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 }

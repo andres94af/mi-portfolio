@@ -1,9 +1,9 @@
 .skils{
-  background: var(--background-blanco);
+  background: var(--background-web);
   padding: 2rem 3rem;
 }
 .skils-titulo{
-  color: var(--titulos-principales);
+  color: var(--titulos);
   font-size: 2.5rem;
   text-align: center;
   letter-spacing: 0.4rem;
@@ -18,7 +18,7 @@
 }
 
 .skil{
-  background-color: var(--background-gris-claro);
+  background-color: var(--background-tarjetas);
   padding: 1rem;
   margin: 2rem 2.5rem;
   text-align: center;

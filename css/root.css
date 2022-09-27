@@ -1,21 +1,21 @@
+/* MODO CLARO */
 /* :root{
-  --background-gris: #cecfc9;
-  --background-gris-claro: rgb(230, 230, 230);
-  --background-blanco: #efefef;
-  --titulos-principales: #0a3143;
-  --titulos-secundarios: #0a3143;
+  --background-web: #cecfc9;
+  --background-tarjetas: #efefef;
+  --titulos: #0a3143;
   --textos: rgb(93, 93, 93);
   --sombras: rgba(36, 0, 144, 0.2);
   --boton: #276e90;
-} MODELO ORIGINAL--------------------------------------------------------*/
+} */
 
+
+/* MODO OSCURO */
 :root{
-  --background-gris: #121212;
-  --background-gris-claro: #121212;
-  --background-blanco: #1f1f1f;
-  --titulos-principales: #dedcdca3;
-  --titulos-secundarios: #dedcdca3;
+  --background-web: #121212;
+  --background-tarjetas: #1f1f1f;
+  --titulos: #dedcdca3;
   --textos: #ffffff6d;
   --sombras: rgba(3, 218, 198, 0.25);
   --boton: rgb(6, 175, 158);
+  --fondo-logos: rgba(255, 255, 255, 0.05);
 }

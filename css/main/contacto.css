@@ -1,27 +1,22 @@
 .contacto {
-  background: linear-gradient(
-    to bottom,
-    var(--background-blanco),
-    var(--background-gris)
-  );
+  background: var(--background-web);
 }
 
 .contacto-logo {
   width: 2rem;
   vertical-align: bottom;
   margin-right: 0.5rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--fondo-logos);
   border-radius: 6px;
   box-shadow: 0px 0px 20px 2px var(--sombras);
 }
 
 .contacto-titulo {
-  color: var(--titulos-principales);
+  color: var(--titulos);
   font-size: 2rem;
   text-align: center;
   letter-spacing: 0.4rem;
   padding: 0 0 2rem 0;
-
 }
 
 .contacto-datos {
@@ -33,7 +28,7 @@
 }
 
 .contacto-datos p {
-  padding: 0.5rem;
+  padding: 0.9rem;
   color: var(--textos);
 }
 
@@ -51,7 +46,6 @@
 text-decoration: underline;
 color: var(--textos);
 }
-
 
 @media screen and (max-width: 768px) {
   .contacto-titulo {

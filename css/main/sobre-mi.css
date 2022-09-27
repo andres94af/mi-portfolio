@@ -1,5 +1,5 @@
 .sobre__mi {
-  background-color: var(--background-blanco);
+  background-color: var(--background-web);
   padding: 2rem 3rem;
   height: calc(100vh - 5.6rem);
 }
@@ -21,14 +21,14 @@
   font-size: 3rem;
   line-height: 4rem;
   letter-spacing: 0.4rem;
-  color: var(--titulos-principales);
+  color: var(--titulos);
 }
 
 .sobre__mi-titulo2 {
   font-size: 2rem;
   line-height: 4rem;
   letter-spacing: 0.2rem;
-  color: var(--titulos-principales);
+  color: var(--titulos);
 }
 
 .imagen__cv {

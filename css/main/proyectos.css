@@ -1,10 +1,10 @@
 .proyectos {
-  background: var(--background-blanco);
+  background: var(--background-web);
   padding: 2rem 3rem;
 }
 
 .proyectos-titulo {
-  color: var(--titulos-principales);
+  color: var(--titulos);
   font-size: 2.5rem;
   text-align: center;
   letter-spacing: 0.4rem;
@@ -20,9 +20,10 @@
 }
 
 .proyecto-titulo {
-  color: var(--titulos-principales);
-  font-size: 1.5rem;
+  color: var(--titulos);
+  font-size: 1.8rem;
   text-align: center;
+  text-decoration: underline;
 }
 
 .proyecto-descripcion{
@@ -38,11 +39,10 @@
   border-radius: 5px;
   border: 2px solid var(--boton);
   color: var(--boton);
-  background-color: var(--background-blanco);
 }
 
 .boton:hover{
-  color: var(--background-blanco);
+  color: var(--background-web);
   background-color: var(--boton);
 }
 
