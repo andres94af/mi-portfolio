@@ -1,6 +1,7 @@
 .sobre__mi {
   background-color: var(--background-blanco);
   padding: 2rem 3rem;
+  height: calc(100vh - 5.6rem);
 }
 
 .sobre__mi-principal {
@@ -53,13 +54,13 @@
   }
   .sobre__mi {
     padding: 1rem;
+    height: auto;
   }
   .sobre__mi-principal {
     padding: 1rem 0;
   }
   .sobre__mi-titulo1 {
     font-size: 1.8rem;
-    /* line-height: 2rem; */
     letter-spacing: 0;
   }
   .sobre__mi-titulo2 {
@@ -68,7 +69,7 @@
     letter-spacing: 0.2rem;
   }
   .sobre__mi-texto {
-    padding: 0.7rem 0 0 0;
+    padding: 1rem 0 0 0;
     font-size: 1rem;
   }
 }
