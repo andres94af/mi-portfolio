@@ -9,6 +9,7 @@
   text-align: center;
   letter-spacing: 0.4rem;
   padding: 2rem 0 3rem 0;
+  overflow: hidden;
 }
 
 .estudios-contenedor {
