@@ -1,12 +1,29 @@
 .cabecero{
   background: linear-gradient(to top, var(--background-web), var(--background-web));
   padding: 1rem 3rem;
-  height: 3.6rem;
+
+}
+
+.modo{
+  margin: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items:center;
+}
+
+.txt-modo{
+  padding: 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+#txt-btn{
+  color: var(--titulos);
 }
 
 .cabecero-lista{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .cabecero-lista-item{
@@ -32,7 +49,7 @@
   width: 1.5rem;
   background: var(--fondo-logos);
   border-radius: 5px;
-  box-shadow: 0px 0px 15px 1px var(--sombras);
+  box-shadow: 0px 0px 15px 1px var(--sombras-logo);
 }
 
 .andres a:hover{
@@ -63,7 +80,7 @@
   }
   .cabecero-lista-item{
     font-size: 1rem;
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 1.4rem;
   }
 
 }

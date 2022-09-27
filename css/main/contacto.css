@@ -7,8 +7,8 @@
   vertical-align: bottom;
   margin-right: 0.5rem;
   background: var(--fondo-logos);
-  border-radius: 6px;
-  box-shadow: 0px 0px 20px 2px var(--sombras);
+  border-radius: 4px;
+  box-shadow: 0px 0px 20px 2px var(--sombras-logo);
 }
 
 .contacto-titulo {

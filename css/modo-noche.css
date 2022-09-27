@@ -1,15 +1,3 @@
-/* MODO CLARO */
-/* :root{
-  --background-web: #cecfc9;
-  --background-tarjetas: #efefef;
-  --titulos: #0a3143;
-  --textos: rgb(93, 93, 93);
-  --sombras: rgba(36, 0, 144, 0.2);
-  --boton: #276e90;
-} */
-
-
-/* MODO OSCURO */
 :root{
   --background-web: #121212;
   --background-tarjetas: #1f1f1f;
@@ -18,4 +6,5 @@
   --sombras: rgba(3, 218, 198, 0.25);
   --boton: rgb(6, 175, 158);
   --fondo-logos: rgba(255, 255, 255, 0.05);
+  --sombras-logo: rgba(3, 218, 198, 0.25);
 }
