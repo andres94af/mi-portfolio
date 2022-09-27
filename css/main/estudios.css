@@ -31,6 +31,7 @@
 .estudio:hover {
   transform: scale(1.03);
   transition: 500ms;
+  background-color: rgba(128, 128, 128, 0.05);
 }
 
 .estudio-img {
@@ -48,6 +49,13 @@
   color: var(--textos);
   padding: 0 0.5rem;
   line-height: 1.1rem;
+}
+
+#certificado{
+  padding-top: 1rem;
+  color: var(--textos);
+  font-size: 0.7rem;
+  align-items:baseline;
 }
 
 @media screen and (max-width: 768px) {
