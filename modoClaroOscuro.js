@@ -1,12 +1,13 @@
 function cambiarModo() {
-  let theme = document.getElementById("tema");
-  let textoBtn = document.getElementById("txt-btn");
+  let tema = document.getElementById("tema");
+  let imgBtn = document.getElementById("img-btn");
 
-  if (theme.getAttribute("href") == "css/modo-dia.css") {
-    theme.href = "css/modo-noche.css";
-    textoBtn.textContent = "Light";
+  if (tema.getAttribute("href") == "css/modo-dia.css") {
+    tema.href = "css/modo-noche.css";
+    imgBtn.setAttribute("src", "img/light.png");
+
   } else {
-    theme.href = "css/modo-dia.css";
-    textoBtn.textContent = "Dark";
+    tema.href = "css/modo-dia.css";
+    imgBtn.setAttribute("src", "img/dark.png");
   }
 }

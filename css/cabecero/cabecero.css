@@ -56,6 +56,14 @@
   text-decoration: none;
 }
 
+.img-modo{
+  position: relative;
+  top:4.2px;
+  width: 1.3rem;
+  border-radius: 50%;
+  background-color: #cecfc9;
+}
+
 
 @media screen and (max-width: 768px) {
 .andres{
@@ -82,7 +90,10 @@
     font-size: 1rem;
     padding: 0.8rem 1.4rem;
   }
-
+  .img-modo{
+    width: 1rem;
+    top:3px;
+  }
 }
 
 @media screen and (max-width: 375px){
@@ -99,5 +110,8 @@
   }
   .cabecero{
     height: auto;
+  }
+  .img-modo{
+    width: 1rem;
   }
 }
