@@ -1,10 +1,8 @@
 :root{
-  --background-web: #cecfc9;
-  --background-tarjetas: #efefef;
-  --titulos: #0a3143;
+  --background-web: rgb(206, 207, 201);
+  --background-tarjetas: rgb(239, 239, 239);
+  --titulos: rgb(10, 49, 67);
   --textos: rgb(93, 93, 93);
   --sombras: rgba(36, 0, 144, 0.3);
-  --boton: #276e90;
-  --fondo-logos: none;
-  --sombras-logo: none;
+  --boton: rgb(39, 110, 144);
 }
