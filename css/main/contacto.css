@@ -31,6 +31,8 @@
 }
 
 .contacto-redes {
+  display: flex;
+  justify-content: center;
   text-align: center;
   vertical-align: center;
   padding: 1rem 0 2rem;

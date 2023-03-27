@@ -1,7 +1,7 @@
 .sobre__mi {
   background-color: var(--background-web);
   padding: 2rem 3rem;
-  height: calc(100vh - 5.6rem);
+  /* height: calc(100vh - 5.6rem); */
 }
 
 .sobre__mi-principal {
@@ -13,7 +13,7 @@
 }
 
 .sobre__mi-titulos{
-  width: 29rem;
+  width: 35rem;
   overflow: hidden;
 }
 
@@ -41,11 +41,13 @@
 .sobre__mi-texto {
   overflow: hidden;
   padding: 1rem 10rem 0 10rem;
+  margin: 1rem 0 1rem 0;
   color: var(--textos);
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   text-indent: 1rem;
   line-height: 1.6rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
